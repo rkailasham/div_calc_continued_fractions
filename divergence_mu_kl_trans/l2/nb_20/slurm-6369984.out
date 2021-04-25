@@ -1,0 +1,9 @@
+
+=========================================
+Timing: Commenced at 17:07:52 on 08 Oct 2020 
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/usr/local/matlab/r2019b/runtime/glnxa64:/usr/local/matlab/r2019b/bin/glnxa64:/usr/local/matlab/r2019b/sys/os/glnxa64:/usr/local/matlab/r2019b/sys/opengl/lib/glnxa64
+Timing: Finished at 17:08:23 on 08 Oct 2020 
+=========================================
