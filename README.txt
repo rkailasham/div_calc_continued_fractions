@@ -63,13 +63,6 @@ driver_diffmat_sym_eig_direct.m         : Generates Fig. S6
 % E: Calculation of divergence terms in SDE and stress tensor expression			     %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The folder "fig_s3_derv_calc" contains the necessary data for generating Fig. S3.
-Within this folder,
-
-driver_plot_derv_accuracy.m		: Driver routine that generates Fig. S3
-derv_pi_mk.m				: Code that analytically evaluates the gradient in Fig. S3
-					  This code was run on the various test cases, in order to 
-					  generate data that is used for plotting Fig. S3
 	
 The folder "divergence_V_jk_trans" contains the data needed for plotting Fig. S4(a) and Fig. S5(a).
 Within this folder,
