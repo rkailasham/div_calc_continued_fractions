@@ -1,0 +1,25 @@
+function [u_hat_jl_t] = transpose_u_hat_jl(u_hat_jl)
+
+%Re-arranges the information stored in "v_hat_jl", so that its
+%transpose may be assembled.
+%This would involve exchanging the 9th and 10th columns of
+% "v_hat_jl", so that the tensor (\bm{Q}_f\bm{Q}_s)/(Q_fQ_s) becomes
+%(\bm{Q}_s\bm{Q}_f)/(Q_sQ_f). 
+
+%Once the exchange of the two columns
+%has been completed, remember that the prefactor,
+%(1/(1-M(k)-P(k)) would depend now on the contents of the 9th column.
+
+%"u_hat_jl" has 10 columns
+
+u_hat_jl_t=u_hat_jl;
+[nrow,ncol]=size(u_hat_jl);
+temp1=u_hat_jl(:,ncol-1);
+temp2=u_hat_jl(:,ncol);
+
+u_hat_jl_t(:,ncol-1)=temp2;
+u_hat_jl_t(:,ncol)=temp1;
+
+
+end
+
