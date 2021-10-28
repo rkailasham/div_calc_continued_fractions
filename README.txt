@@ -3,7 +3,7 @@
 This repository contains the MATLAB scripts for the analytical calculation of divergences 
 of finite continued fractions. The relevant formulae have been provided in the 
 "Supplementary Material" section of the paper titled "Rouse model with fluctuating
-internal friction". 
+internal friction" [J. Rheol. 65, 903 (2021)]. 
 
 
 Given below is a list of scripts and their purpose. The equation numbers are 
